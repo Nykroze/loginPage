@@ -1,0 +1,221 @@
+text{
+font-family: Arial, Helvetica, sans-serif ;
+font-size: 15px;
+    color: aqua;    
+} 
+.inputemail{
+    display: flex;
+    margin: auto; 
+    font-size: 15px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;   
+    background-color :rgba(0, 0, 0, 0.5);  
+    border-style: ridge;  
+    color: aqua;
+    margin-top: 7px;
+ } 
+.inputpassword  {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+    margin: auto;
+  
+    background-color :rgba(0, 0, 0, 0.5);
+   
+    border-style: ridge;  
+    color: aqua; 
+    margin-top: 10px;   
+ } 
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%; 
+    margin-top: 10%;
+    border: none; 
+    
+}
+body{
+    background-image:url("imagedefond3.jpg") ;
+    background-size: 1920px 1080px;
+    background-color: grey;
+    
+}
+.img_login{  
+    margin-left:22% ;
+}
+.img_socials{
+    margin-left: 10px ;
+    margin-right: 5px ;
+}
+fieldset{
+    
+    border:solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-style: none;
+    background-color :rgba(0, 0, 0, 0.5) ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    
+   
+    
+ }
+ legend{
+    font-family:"Pacifico", serif;
+    font-size: 25px;
+    font-style: normal;
+    margin: auto;
+    margin-bottom: 5px; 
+    color: lightgray;      
+ }
+footer{
+    display: flex;
+    flex-direction: column;    
+    background-color: #333;
+    color: #fff;      
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;   
+} 
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+main{
+    flex: 1;
+    
+}
+.socials{
+    display: flex;
+    justify-content: center;    
+    margin-block: 10px;    
+   padding: 5px;  
+}
+button{
+    width: 80%;
+
+    display: block;
+    height: 40px;        
+    border-radius: 20px;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 15px;
+          
+}
+
+
+.titreinfoetautre{
+    font-size: 17px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center; 
+    text-align: center;  
+}
+.remember{
+    display: flex;
+    text-align: center;  
+    justify-content: center; 
+    margin-right: 20px; 
+    margin-top: 10px; 
+    color: lightgray;
+}
+.lienfooter{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    opacity: 0.7;
+    font-size: 14px;  
+    padding: 0;
+    margin: 0;
+}
+.rangerdelien{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.lienfooter li{
+    margin-bottom: 5px;
+    
+}
+label{
+    margin-bottom: 5px;
+}
+.forgot{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    justify-content: center;  
+    text-decoration: none; 
+    color: lightgray;
+}
+button{
+    overflow: hidden;
+    transition: transform.3s;
+    color: lightgrey;
+}
+button:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.lienfooter{
+    transition: transform.3s;
+}
+.lienfooter:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.img_socials{
+    transition: transform.3s;
+}
+.img_socials:hover{
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+
+}
+.forgot{
+    transition: transform.3s;
+}
+.forgot:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
